@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+body {
+    background-image: url(img/fondo.jpg);
+}
+#cabecera {
+    border-bottom: 4px solid gray;
+    margin: 60px;
+    display: flex;             
+    align-items: center;
+    padding: 20px;       
+}
+#logo {
+    border-radius: 50%;           
+    width: 300px;
+    height: 300px;
+}
+
+#desarrolloweb {
+    margin-left: auto;        
+    width: 600px;
+}
+#yo{
+    display: flex;
+    justify-content: flex-end;
+}
+#textito{
+    border: white 3px solid;
+    background-color: white;
+    font-size: 25px;
+    margin-right: 50px;
+}
+#texto {
+    text-align: justify;      
+    margin: 60px;        
+    font-size: 28px;
+    line-height: 2;
+}
+#texto h3 {
+    text-decoration: underline;
+    font-size: 60px;
+}
+#texto p {
+    font-size: 40px;
+}
+#cuerpo{
+    display: flex;
+    flex-direction: row;
+    border: black 6px solid;
+    margin: 60px;
+    padding: 40px;
+    gap: 40px;
+    justify-content: space-between;
+    
+}
+.lenguaje1{
+    border: gray 3px solid;
+    background-color: #F2EDEC;
+    width: 32%;
+    min-height: 1200px;
+    padding: 30px;
+}
+
+.lenguaje1 h2{
+    margin: 6px;
+    color: white;
+    background-color: #E46634;
+    font-size: 48px;
+    padding: 10px;
+    text-align: center;
+}
+.lenguaje1 p{
+    font-size: 45px;
+    margin: 25px;
+}
+.lenguaje1 img{
+    margin: 80px;
+    width: 70%;
+}
+
+.lenguaje2{
+    border: gray 3px solid;
+    background-color: #E6EBEE;
+    width: 32%;
+    min-height: 1200px;
+    padding: 30px;
+}
+
+.lenguaje2 h2{
+    margin: 6px;
+    color: white;
+    background-color: #0477BF;
+    font-size: 48px;
+    padding: 10px;
+    text-align: center;
+}
+.lenguaje2 p{
+    font-size: 45px;
+    margin: 25px;
+}
+.lenguaje2 img{
+    margin: 80px;
+    width: 70%;
+}
+
+.lenguaje3{
+    border: gray 3px solid;
+    background-color: #E8EDE0;
+    width: 32%;
+    min-height: 1200px;
+    padding: 30px;
+}
+
+.lenguaje3 h2{
+    margin: 6px;
+    color: white;
+    background-color: #6BA614;
+    font-size: 48px;
+    padding: 10px;
+    text-align: center;
+}
+.lenguaje3 p{
+    font-size: 45px;
+    margin: 25px;
+}
+.lenguaje3 img{
+    margin: 80px;
+    width: 70%;
+}
+
+#texto2 {
+    margin: 60px;
+    font-size: 60px;
+    text-align: justify;
+    text-decoration: underline;
+}
+.Analogia1{
+    border: gray 3px solid;
+    background-color: #F2EDEC;
+    width: 32%;
+    padding: 30px;
+}
+.Analogia1 h2{
+    margin: 6px;
+    color: white;
+    background-color: #E46634;
+    font-size: 48px;
+    padding: 10px;
+    text-align: center;
+}
+.Analogia1 p{
+    font-size: 45px;
+    margin: 25px;
+}
+
+
+.Analogia2{
+    border: gray 3px solid;
+    background-color: #E6EBEE;
+    width: 32%;
+    padding: 30px;
+}
+
+.Analogia2 h2{
+    margin: 6px;
+    color: white;
+    background-color: #0477BF;
+    font-size: 48px;
+    padding: 10px;
+    text-align: center;
+}
+.Analogia2 p{
+    font-size: 45px;
+    margin: 25px;
+}
+
+
+.Analogia3{
+    border: gray 3px solid;
+    background-color: #E8EDE0;
+    width: 32%;
+    padding: 30px;
+}
+
+.Analogia3 h2{
+    margin: 6px;
+    color: white;
+    background-color: #6BA614;
+    font-size: 48px;
+    padding: 10px;
+    text-align: center;
+}
+.Analogia3 p{
+    font-size: 45px;
+    margin: 25px;
+}
+
+#casa{
+    display: flex;
+    justify-content: center;
+}
+#CASA{
+    width: 1200px;   
+    height: auto;
+    box-shadow: 30px 30px 10px rgb(77, 76, 76);
+    margin : 20px;
+}
+
+#cuerpo2{
+    display: flex;
+    flex-direction: row;
+    border: black 6px solid;
+    margin: 60px;
+    padding: 40px;
+    gap: 40px;
+    justify-content: space-between;
+}
+#vacio{
+    border-top: gray 6px solid;
+    margin: 60px;
+}
+#pie h3{
+margin: 60px;
+    font-size: 60px;
+    text-align: justify;
+    text-decoration: underline;
+}
+#pie p{
+    text-align: center;
+    font-size: 45px;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    box-shadow: black 5px 10px 10px;
+    margin:50px;
+}
